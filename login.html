@@ -1,0 +1,208 @@
+<html>
+ <head>
+    <title>halaman 2</title>
+  <title>
+   Login Page
+  </title>
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #34a853;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+        .header img {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header h2 {
+            margin: 10px 0 0;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .form-container {
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group input::placeholder {
+            color: #ccc;
+        }
+        .form-group .icon {
+            position: absolute;
+            margin-left: -30px;
+            margin-top: 12px;
+            color: #ccc;
+        }
+        .form-group .remember-me {
+            position: absolute;
+            top: 50%;
+        }
+        .form-group .remember-me input {
+            margin-right: 10px;
+        }
+        .form-group .remember-me label{
+        margin: 0;
+        }
+        .form-group .forgot-password {
+            text-align: right;
+        }
+        .form-group .forgot-password a {
+            color: #34a853;
+            text-decoration: none;
+        }
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #34a853;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center ;
+            cursor: pointer;
+        }
+        .login-button:hover {
+            background-color: #2c8c47;
+        }
+        .login-with {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .login-with p {
+            margin: 0;
+            font-size: 14px;
+            color: #666;
+        }
+        .login-with .social-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .login-with .social-buttons a {
+            margin: 0 10px;
+        }
+        .login-with .social-buttons img {
+            width: 40px;
+            height: 40px;
+        }
+        .register {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .register p {
+            margin: 0;
+            font-size: 14px;
+            color: #666;
+        }
+        .register a {
+            color: #34a853;
+            text-decoration: none;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <h1>
+     Welcome To
+    </h1>
+    <h2>
+     PupukerZ
+    </h2>
+    <img alt="Logo" height="40" src="https://storage.googleapis.com/a1aa/image/K75Fqlh2c04wNFP2arr4sfFN7HsmvDI6izCWRxEzRf0tpz2TA.jpg" width="40"/>
+   </div>
+   <div class="form-container">
+    <div class="form-group">
+     <label for="email">
+      Email ID
+     </label>
+     <input id="email" placeholder="Email" type="email"/>
+     <i class="fas fa-envelope icon">
+     </i>
+    </div>
+    <div class="form-group">
+     <label for="password">
+      Password
+     </label>
+     <input id="password" placeholder="Password" type="password"/>
+     <i class="fas fa-lock icon">
+     </i>
+    </div>
+    <div class="form-group remember-me">
+        <input id="remember-me" type="checkbox"/>
+        <label for="remember-me">
+         Remember me
+        </label>
+        <div class="forgot-password">
+         <a href="login cog.html">
+          Forgot Password?
+         </a>
+        </div>
+       </div>
+       <div class="form-group login-button">
+        <label for="login-button">
+            <a href="login cog.html">
+            login
+        </a>
+        </label>
+       </div>
+       <div class="login-with">
+        <p>
+         Or Login With
+        </p>
+        <div class="social-buttons">
+         <a href="login cog.html">
+          <img alt="Google" height="40" src="https://storage.googleapis.com/a1aa/image/6AKMqNmnhMaxD5wP94kNCXs2gsX9nEueucQK9SuOAAROIi8JA.jpg" width="40"/>
+         </a>
+         <a href="login cog.html">
+          <img alt="Facebook" height="40" src="https://storage.googleapis.com/a1aa/image/fXMIGp3EZXzzcKHrxS0I4SdrFEw6HFeTfxyu8IIufid2BRkPB.jpg" width="40"/>
+         </a>
+        </div>
+       </div>
+       <div class="register">
+        <p>
+         don't have an account?
+         <a href="login cog.html">
+          register now
+      </a>
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
